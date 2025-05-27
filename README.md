@@ -61,13 +61,14 @@ Devuelve una lista con todos los clientes registrados.
 
 📝 **Body (JSON)**
 
-``json
+```json
 {
   "nombre": "María López",
   "direccion": "Av. Siempre Viva 123",
   "telefono": "1122334455",
   "email": "maria@example.com"
 }
+```
 -------------
 🔁 Respuesta 200 OK
 🔁 Respuesta 400 Bad Request si hay un error de validación.
