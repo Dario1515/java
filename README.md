@@ -61,7 +61,7 @@ Devuelve una lista con todos los clientes registrados.
 
 📝 **Body (JSON)**
 
-```json
+``json
 {
   "nombre": "María López",
   "direccion": "Av. Siempre Viva 123",
