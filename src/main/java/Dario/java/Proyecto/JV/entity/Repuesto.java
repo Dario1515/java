@@ -6,10 +6,11 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.Data;
 
+import java.math.BigDecimal;
+
 @Data
 @Entity
-@Table(name = "Repuestos")
-
+@Table(name = "REPUESTOS")
 public class Repuesto {
     @Id
     @Column(name = "CODIGO")
@@ -22,5 +23,12 @@ public class Repuesto {
     private String marca;
 
     @Column(name = "PRECIO")
-    private int precio;
+    private BigDecimal precio;
+
+    @Column(name = "stock", nullable = false)
+    private int stock;
+
+
+
 }
+
