@@ -10,7 +10,7 @@ Ideal para sistemas de facturación simples.
 
 ---
 
-## 🚀 Tecnologías
+## 🚀 Tecnologías.
 
 - Java 17+
 - Spring Boot
